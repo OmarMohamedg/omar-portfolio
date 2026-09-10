@@ -35,8 +35,9 @@ jobs:
         run: npm run build
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
+          name: omar-portfolio
           path: ./dist
 
   deploy:
@@ -48,6 +49,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+    - name: Deploy to GitHub Pages
+    id: deployment
+    uses: actions/deploy-pages@v4
+    with:
+      artifact_name: omar-portfolio
