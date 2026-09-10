@@ -3,6 +3,6 @@ import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/omar-portfolio/',
   plugins: [react(), tailwindcss()],
+  base: '/omar-portfolio/',
 })
