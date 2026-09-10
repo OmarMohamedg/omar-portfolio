@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0b0d12" />
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04" />
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)" />
+  <circle cx="90" cy="80" r="5" fill="#45c97a" />
+  <text x="115" y="88" font-family="JetBrains Mono, monospace" font-size="20" fill="#a7afc0">SYSTEM STATUS · ONLINE</text>
+  <text x="90" y="300" font-family="Space Grotesk, sans-serif" font-size="64" font-weight="600" fill="#e7eaf0">Omar Eltawapty</text>
+  <text x="90" y="360" font-family="JetBrains Mono, monospace" font-size="26" fill="#5b8ff9">Cybersecurity &amp; Software Engineer</text>
+  <text x="90" y="400" font-family="Inter, sans-serif" font-size="22" fill="#a7afc0">Full-Stack Developer</text>
+  <text x="90" y="560" font-family="JetBrains Mono, monospace" font-size="16" fill="#6b7280">CYBERSECURITY × SOFTWARE ENGINEERING × AI</text>
+</svg>
